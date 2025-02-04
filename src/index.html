@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <style>
+      .nav_bar{
+        position:sticky;
+        top:0;
+        z-index:50;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar Begins -->
+      <div class="container mx-auto bg-blue-100 nav_bar">
+        <nav class="flex justify-between items-center">
+
+            <div class="ms-5">
+                <img src="./images/logo.png" class="rounded-full" height="110px" width="110px"></img>
+            </div>
+      
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="hover:text-xl hover:text-blue-950 hover:font-bold">Home</a></li>
+                    <li><a href="#courses" class="hover:text-xl hover:text-blue-950 hover:font-bold">Courses</a></li>
+                    <li><a href="#services" class="hover:text-xl hover:text-blue-950 hover:font-bold">Services</a></li>
+                    <li><a href="#about" class="hover:text-xl hover:text-blue-950 hover:font-bold">About Us</a></li>
+                    <li><a href="#customer" class="hover:text-xl hover:text-blue-950 hover:font-bold">Customer Feedback</a></li>
+                    <li><a href="#contact" class="hover:text-xl hover:text-blue-950 hover:font-bold">Contact </a></li>
+                </ul>
+       
+            <div><button class="px-6 py-3 text-white me-5 font-semibold rounded-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-purple-500 hover:to-blue-500 transition-all duration-300">SignUp</button></div>
+
+        </nav>
+      </div>
+    <!-- Navbar Ends   -->
+
+    <!-- Hero Section Begins -->
+     <div class="container mx-auto mt-14 flex items-center" id="home">
+        <div class="w-1/2 text-center">
+           <h1 class="text-5xl text-indigo-600">NextGen</h1>
+            <p class="mt-6">Unlock your potential with NextGen Software Training Academy!
+             Advance your career, switch industries, or master a new skill with expert-led courses that fit your schedule.
+              Learn at your own pace, gain practical knowledge, and earn certifications that matter. With hands-on projects
+               and real-world content, 
+            we make learning exciting and impactful. Start your journey today and turn your passion into success!</p>
+            <button class="mt-6 px-6 py-3 text-white me-5 font-semibold rounded-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-purple-500 hover:to-blue-500 transition-all duration-300">Join Now</button>
+        </div>
+
+        <div class="w-1/2">
+            <img src="./images/illus1.png" alt="" class="mx-auto">
+        </div>
+
+     </div>
+    <!-- Hero Section Ends -->
+    
+    <!-- Main Section1 Begins(courses) -->
+    <h1 class="text-center font-semibold text-2xl mt-16 mb-3 text-red-500 uppercase" id="courses"> Popular courses</h1>
+<p class="text-center text-4xl mb-6 font-bold"> Pick A Course To Get Started</p>
+     <div class="container flex  mx-auto  gap-x-6">
+        
+        <div class="course_box ">
+            <h1 class="text-2xl text-blue-800 font-bold ">Mern Stack Web development</h1>
+            <img src="./images/mern.png" alt="" class="h-40 w-40">
+            <p>Gain expertise in MongoDB, Express.js, React, and Node.js. Develop interactive, high-performance web applications with hands-on experience and deployment knowledge.</p>
+            <button class="click">buy now</button>
+        </div>
+
+           <div class="course_box" >
+            <h1 class="text-2xl text-blue-800 font-bold">Mean Stack Web development</h1>
+            <img src="./images/mean.png" alt="" class="h-40 w-40">
+            <p>Explore MongoDB, Express.js, Angular, and Node.js. Build scalable full-stack applications, REST APIs, and single-page applications with real-world projects.</p>
+            <button class="click">buy now</button>
+        </div>
+
+           <div class="course_box" >
+            <h1 class="text-2xl text-blue-800 font-bold">Python Full Stack development</h1>
+            <img src="./images/python.png" alt="" class="h-40 w-40">
+            <p>Learn Python, Django, Flask, React, and PostgreSQL. Develop powerful web applications with backend logic, APIs, frontend UI, and cloud deployment.</p>
+           <button class="click">buy now</button>
+        </div>
+     </div>
+    <!-- Main Section1 Ends(courses) -->
+
+    <!-- Main Section2 Begins(courses) -->
+     <div class="container flex mx-auto m-6 text-center gap-x-6">
+        
+        <div class="course_box ">
+            <h1 class="text-2xl text-blue-800 font-bold">Digital Marketing</h1>
+            <img src="./images/digital.png" alt="" class="h-40 w-40">
+            <p>Master SEO, PPC, social media marketing, content strategy, and analytics. Boost business growth with digital marketing techniques and real-world case studies.</p>
+            <button class="click">buy now</button>
+        </div>
+
+           <div class="course_box" >
+            <h1 class="text-2xl text-blue-800 font-bold">Cyber Security</h1>
+            <img src="./images/cyber.png" alt="" class="h-40 w-40">
+            <p>Learn ethical hacking, penetration testing, network security, and threat analysis. Master cybersecurity tools, risk management, and best practices to secure digital assets.</p>
+            <button class="click">buy now</button>
+        </div>
+
+           <div class="course_box" >
+            <h1 class="text-2xl text-blue-800 font-bold">Java Full Stack development</h1>
+            <img src="./images/java.png" alt="" class="h-40 w-40">
+            <p>Master Java, Spring Boot, Hibernate, React, and Angular. Build dynamic web applications with hands-on projects, RESTful APIs, and deployment strategies.</p>
+            <button class="click">buy now</button>
+        </div>
+     </div>
+     <center><button class="bg-red-500 text-white rounded px-9 py-4 text-semibold">Browse More courses -></button></center>
+    <!-- Main Section2 Ends(courses) -->
+    
+    <!-- services section begins -->
+    <div class="container mx-auto mt-14" id="services">
+      <h1 class='text-center text-2xl mb-3 text-red-500 uppercase font-semibold'> Our Services</h1>
+      <p class="text-4xl mb-6 text-center font-bold">solution to your career</p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-x-9">
+
+        <div class="bg-black text-white flex flex-col  h-96 relative">
+          <img src="images/teach.png" class="bg-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full h-16 ">
+          <div class="h-1/2 bg-gray-600"><img src="./images/Academy-Services.webp" alt="" class="h-full w-full"></div>
+          <div class="h-1/2 bg-blue-500 text-center">
+            <h1 class="mt-12 text-2xl">Academy Services</h1>
+            <p>Encompass a range of offerings aimed at supporting students' educational goals.</p>
+            <button class="bg-orange-400 mt-3 rounded  px-7 py-2">view more</button>
+          </div>
+        </div>
+
+        <div class="bg-black text-white flex flex-col   h-96 relative">
+          <img src="images/quality.png" class="bg-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full h-16 ">
+          <div class="h-1/2 bg-gray-600"><img src="./images/Campus-Services.webp" alt=""  class="h-full w-full"></div>
+          <div class="h-1/2 bg-blue-500 text-center">
+            <h1 class="mt-12 text-2xl">Campus Services</h1>
+            <p>Our training programs to ensure effective career preparedness and placement</p>
+             <button class="bg-orange-400 mt-3 rounded  px-7 py-2">view more</button>
+          </div>
+        </div>
+
+        <div class="bg-black text-white flex flex-col   h-96 relative">
+          <img src="images/teach.png" class="bg-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full h-16 ">
+          <div class="h-1/2 bg-gray-600"><img src="./images/Corporate-Services.webp" alt=""  class="h-full w-full"></div>
+          <div class="h-1/2 bg-blue-500 text-center">
+            <h1 class="mt-12 text-2xl">Corporate Services</h1>
+            <p>Encompass a range of offerings aimed at supporting students' educational goals.</p>
+             <button class="bg-orange-400 mt-3 rounded  px-7 py-2">view more</button>
+          </div>
+        </div>
+
+        <div class="bg-black text-white flex flex-col   h-96 relative">
+          <img src="images/quality.png" class="bg-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full h-16 ">
+          <div class="h-1/2 bg-gray-600"><img src="./images/E-Learning-Services.webp" alt=""  class="h-full w-full"></div>
+          <div class="h-1/2 bg-blue-500 text-center">
+            <h1 class="mt-12 text-2xl">E-Learning Services</h1>
+            <p>Empower your education journey with our innovative e-learning solutions.</p>
+             <button class="bg-orange-400 mt-3 rounded  px-7 py-2">view more</button>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+    <!-- services section ends -->
+
+    <!-- about section begins -->
+<div class="container mx-auto w-3/4 mt-14" id="about">
+  <h1 class="text-2xl mb-3  text-red-500 font-semibold uppercase text-center">About us</h1>
+  <p class="text-4xl font-bold text-center">Leading the Way to Career Success NextGen</p>
+    <div class="sm:flex items-center max-w-screen-xl">
+    <div class="sm:w-1/2 p-10">
+        <div class="image object-center text-center">
+            <img src="./images/illus2.png">
+        </div>
+    </div>
+    <div class="sm:w-1/2 p-5">
+        <div class="text">
+     
+            <h2 class="my-4 font-bold text-3xl  sm:text-4xl ">About <span class="text-indigo-600">Our Company</span>
+            </h2>
+            <p class="font-lg text-gray-700">
+                <b class="text-xl">Empowering the Next Generation of Tech Professionals</b> <br>
+                Welcome to NextGen Software Training Academy, your one-stop destination for high-quality, 
+                industry-focused tech education. We are committed to equipping learners with cutting-edge 
+                skills in web development, data science, AI, cloud computing, and more through practical, 
+                hands-on training.If education represents intellectual and mental growth, then NextGen Academy
+                 stands at the forefront of evolution, continually achieving new heights of success
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+     
+<!-- about section ends -->
+
+
+    <!-- testimonial section start  -->
+    <div class=" container my-6 font-[sans-serif] max-w-6xl mx-auto mt-14" id="customer">
+      <div class="max-w-2xl mx-auto text-center">
+        <h1 class="text-center text-2xl uppercase text-red-500 mb-3 font-semibold">testimonial</h1>
+        <h2 class="text-3xl font-bold text-gray-800">What our happy client say</h2>
+        <p class="text-sm mt-6 leading-relaxed text-gray-500">At NextGen Software Training Academy, we take pride in empowering students with industry-relevant skills and hands-on experience. But don’t just take our word for it—see what our learners have to <say!>
+        </p></div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-lg:gap-12 max-md:justify-center text-center max-lg:max-w-3xl max-md:max-w-lg mx-auto mt-16">
+        <div>
+          <div class="flex flex-col items-center">
+            <img src="https://readymadeui.com/team-2.webp" class="w-24 h-24 rounded-full border-2 border-purple-600" />
+            <div class="mt-6">
+              <h4 class="text-sm font-bold text-gray-800">John Doe</h4>
+            </div>
+          </div>
+
+          <div class="flex justify-center space-x-1 mt-2.5">
+            <svg class="w-4 h-4 fill-purple-600" viewBox="0 0 14 13" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+            </svg>
+            <svg class="w-4 h-4 fill-purple-600" viewBox="0 0 14 13" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+            </svg>
+            <svg class="w-4 h-4 fill-purple-600" viewBox="0 0 14 13" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+            </svg>
+            <svg class="w-4 fill-[#CED5D8]" viewBox="0 0 14 13" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+            </svg>
+            <svg class="w-4 fill-[#CED5D8]" viewBox="0 0 14 13" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+            </svg>
+          </div>
+
+          <div class="mt-4">
+            <p class="text-sm leading-relaxed text-gray-800">The service was amazing. I never had to wait that long for my food. The staff was friendly and attentive, and the delivery was impressively prompt.</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex flex-col items-center">
+            <img src="https://readymadeui.com/team-3.webp" class="w-24 h-24 rounded-full border-2 border-purple-600" />
+            <div class="mt-6">
+              <h4 class="text-sm font-bold text-gray-800">Mark Adair</h4>
+            </div>
+          </div>
+
+          <div class="flex justify-center space-x-1 mt-2.5">
+            <svg class="w-4 h-4 fill-purple-600" viewBox="0 0 14 13" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+            </svg>
+            <svg class="w-4 h-4 fill-purple-600" viewBox="0 0 14 13" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+            </svg>
+            <svg class="w-4 h-4 fill-purple-600" viewBox="0 0 14 13" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+            </svg>
+            <svg class="w-4 h-4 fill-purple-600" viewBox="0 0 14 13" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+            </svg>
+            <svg class="w-4 h-4 fill-purple-600" viewBox="0 0 14 13" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+            </svg>
+          </div>
+
+          <div class="mt-4">
+            <p class="text-sm leading-relaxed text-gray-800">The service was amazing. I never had to wait that long for my food. The staff was friendly and attentive, and the delivery was impressively prompt.</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex flex-col items-center">
+            <img src="https://readymadeui.com/team-4.webp" class="w-24 h-24 rounded-full border-2 border-purple-600" />
+            <div class="mt-6">
+              <h4 class="text-sm font-bold text-gray-800">Simon Konecki</h4>
+            </div>
+          </div>
+
+          <div class="flex justify-center space-x-1 mt-2.5">
+            <svg class="w-4 h-4 fill-purple-600" viewBox="0 0 14 13" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+            </svg>
+            <svg class="w-4 h-4 fill-purple-600" viewBox="0 0 14 13" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+            </svg>
+            <svg class="w-4 h-4 fill-purple-600" viewBox="0 0 14 13" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+            </svg>
+            <svg class="w-4 h-4 fill-purple-600" viewBox="0 0 14 13" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+            </svg>
+            <svg class="w-4 fill-[#CED5D8]" viewBox="0 0 14 13" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+            </svg>
+          </div>
+
+          <div class="mt-4">
+            <p class="text-sm leading-relaxed text-gray-800">The service was amazing. I never had to wait that long for my food. The staff was friendly and attentive, and the delivery was impressively prompt.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- testimonial section ends -->
+
+    <!-- contact section begins -->
+<div class="container mx-auto mt-14 mb-12" id="contact">
+  <div class="max-w-5xl max-lg:max-w-3xl mx-auto bg-white my-6 font-[sans-serif] text-blue-800">
+      <div class="text-center px-6">
+        <h2 class="text-gray-800 text-3xl font-bold">Contact Us</h2>
+        <p class="text-sm text-gray-500 mt-4">We’d love to hear from you! Whether you have questions about our courses, need support, or want to collaborate, feel free to reach out.</p>
+      </div>
+
+      <div class="grid lg:grid-cols-3 items-start gap-4 p-2 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-lg mt-12">
+
+        <div class="bg-[#7046ee] rounded-lg p-6 h-full max-lg:order-1">
+          <h2 class="text-xl text-white">Contact Information</h2>
+          <p class="text-sm text-gray-300 mt-4">Have questions or need assistance? We’re here to help! Reach out to us for any inquiries about our courses, enrollment, or collaboration opportunities.</p>
+
+          <ul class="mt-16 space-y-8">
+            <li class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#fff'
+                viewBox="0 0 479.058 479.058">
+                <path
+                  d="M434.146 59.882H44.912C20.146 59.882 0 80.028 0 104.794v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159L239.529 264.631 39.173 90.982a14.902 14.902 0 0 1 5.738-1.159zm0 299.411H44.912c-8.26 0-14.971-6.71-14.971-14.971V122.615l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z"
+                  data-original="#000000" />
+              </svg>
+              <a href="javascript:void(0)" class="text-sm text-gray-300 ml-4">
+                kiranrajmofficial@gmail.com
+              </a>
+            </li>
+            <li class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#fff' viewBox="0 0 482.6 482.6">
+                <path d="M98.339 320.8c47.6 56.9 104.9 101.7 170.3 133.4 24.9 11.8 58.2 25.8 95.3 28.2 2.3.1 4.5.2 6.8.2 24.9 0 44.9-8.6 61.2-26.3.1-.1.3-.3.4-.5 5.8-7 12.4-13.3 19.3-20 4.7-4.5 9.5-9.2 14.1-14 21.3-22.2 21.3-50.4-.2-71.9l-60.1-60.1c-10.2-10.6-22.4-16.2-35.2-16.2-12.8 0-25.1 5.6-35.6 16.1l-35.8 35.8c-3.3-1.9-6.7-3.6-9.9-5.2-4-2-7.7-3.9-11-6-32.6-20.7-62.2-47.7-90.5-82.4-14.3-18.1-23.9-33.3-30.6-48.8 9.4-8.5 18.2-17.4 26.7-26.1 3-3.1 6.1-6.2 9.2-9.3 10.8-10.8 16.6-23.3 16.6-36s-5.7-25.2-16.6-36l-29.8-29.8c-3.5-3.5-6.8-6.9-10.2-10.4-6.6-6.8-13.5-13.8-20.3-20.1-10.3-10.1-22.4-15.4-35.2-15.4-12.7 0-24.9 5.3-35.6 15.5l-37.4 37.4c-13.6 13.6-21.3 30.1-22.9 49.2-1.9 23.9 2.5 49.3 13.9 80 17.5 47.5 43.9 91.6 83.1 138.7zm-72.6-216.6c1.2-13.3 6.3-24.4 15.9-34l37.2-37.2c5.8-5.6 12.2-8.5 18.4-8.5 6.1 0 12.3 2.9 18 8.7 6.7 6.2 13 12.7 19.8 19.6 3.4 3.5 6.9 7 10.4 10.6l29.8 29.8c6.2 6.2 9.4 12.5 9.4 18.7s-3.2 12.5-9.4 18.7c-3.1 3.1-6.2 6.3-9.3 9.4-9.3 9.4-18 18.3-27.6 26.8l-.5.5c-8.3 8.3-7 16.2-5 22.2.1.3.2.5.3.8 7.7 18.5 18.4 36.1 35.1 57.1 30 37 61.6 65.7 96.4 87.8 4.3 2.8 8.9 5 13.2 7.2 4 2 7.7 3.9 11 6 .4.2.7.4 1.1.6 3.3 1.7 6.5 2.5 9.7 2.5 8 0 13.2-5.1 14.9-6.8l37.4-37.4c5.8-5.8 12.1-8.9 18.3-8.9 7.6 0 13.8 4.7 17.7 8.9l60.3 60.2c12 12 11.9 25-.3 37.7-4.2 4.5-8.6 8.8-13.3 13.3-7 6.8-14.3 13.8-20.9 21.7-11.5 12.4-25.2 18.2-42.9 18.2-1.7 0-3.5-.1-5.2-.2-32.8-2.1-63.3-14.9-86.2-25.8-62.2-30.1-116.8-72.8-162.1-127-37.3-44.9-62.4-86.7-79-131.5-10.3-27.5-14.2-49.6-12.6-69.7z" data-original="#000000"></path>
+              </svg>
+              <a href="javascript:void(0)" class="text-sm text-gray-300 ml-4">
+                6382837147
+              </a>
+            </li>
+            <li class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="16px" fill='#fff' viewBox="0 0 368.16 368.16">
+                <path d="M184.08 0c-74.992 0-136 61.008-136 136 0 24.688 11.072 51.24 11.536 52.36 3.576 8.488 10.632 21.672 15.72 29.4l93.248 141.288c3.816 5.792 9.464 9.112 15.496 9.112s11.68-3.32 15.496-9.104l93.256-141.296c5.096-7.728 12.144-20.912 15.72-29.4.464-1.112 11.528-27.664 11.528-52.36 0-74.992-61.008-136-136-136zM293.8 182.152c-3.192 7.608-9.76 19.872-14.328 26.8l-93.256 141.296c-1.84 2.792-2.424 2.792-4.264 0L88.696 208.952c-4.568-6.928-11.136-19.2-14.328-26.808-.136-.328-10.288-24.768-10.288-46.144 0-66.168 53.832-120 120-120s120 53.832 120 120c0 21.408-10.176 45.912-10.28 46.152z" data-original="#000000"></path>
+                <path d="M184.08 64.008c-39.704 0-72 32.304-72 72s32.296 72 72 72 72-32.304 72-72-32.296-72-72-72zm0 128c-30.872 0-56-25.12-56-56s25.128-56 56-56 56 25.12 56 56-25.128 56-56 56z" data-original="#000000"></path>
+              </svg>
+              <a href="javascript:void(0)" class="text-sm text-gray-300 ml-4">
+                The Next Gen Academy, <br>
+                near iplanet, Thirumangalam <br>
+                 Madurai 625706
+              </a>
+            </li>
+          </ul>
+
+          <ul class="flex flex-wrap gap-4 mt-16">
+            <li class="bg-gray-800 hover:bg-gray-900 h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+              <a href="javascript:void(0)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill='#fff'
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M6.812 13.937H9.33v9.312c0 .414.335.75.75.75l4.007.001a.75.75 0 0 0 .75-.75v-9.312h2.387a.75.75 0 0 0 .744-.657l.498-4a.75.75 0 0 0-.744-.843h-2.885c.113-2.471-.435-3.202 1.172-3.202 1.088-.13 2.804.421 2.804-.75V.909a.75.75 0 0 0-.648-.743A26.926 26.926 0 0 0 15.071 0c-7.01 0-5.567 7.772-5.74 8.437H6.812a.75.75 0 0 0-.75.75v4c0 .414.336.75.75.75zm.75-3.999h2.518a.75.75 0 0 0 .75-.75V6.037c0-2.883 1.545-4.536 4.24-4.536.878 0 1.686.043 2.242.087v2.149c-.402.205-3.976-.884-3.976 2.697v2.755c0 .414.336.75.75.75h2.786l-.312 2.5h-2.474a.75.75 0 0 0-.75.75V22.5h-2.505v-9.312a.75.75 0 0 0-.75-.75H7.562z"
+                    data-original="#000000" />
+                </svg>
+              </a>
+            </li>
+            <li class="bg-gray-800 hover:bg-gray-900 h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+              <a href="javascript:void(0)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill='#fff'
+                  viewBox="0 0 511 512">
+                  <path
+                    d="M111.898 160.664H15.5c-8.285 0-15 6.719-15 15V497c0 8.285 6.715 15 15 15h96.398c8.286 0 15-6.715 15-15V175.664c0-8.281-6.714-15-15-15zM96.898 482H30.5V190.664h66.398zM63.703 0C28.852 0 .5 28.352.5 63.195c0 34.852 28.352 63.2 63.203 63.2 34.848 0 63.195-28.352 63.195-63.2C126.898 28.352 98.551 0 63.703 0zm0 96.395c-18.308 0-33.203-14.891-33.203-33.2C30.5 44.891 45.395 30 63.703 30c18.305 0 33.195 14.89 33.195 33.195 0 18.309-14.89 33.2-33.195 33.2zm289.207 62.148c-22.8 0-45.273 5.496-65.398 15.777-.684-7.652-7.11-13.656-14.942-13.656h-96.406c-8.281 0-15 6.719-15 15V497c0 8.285 6.719 15 15 15h96.406c8.285 0 15-6.715 15-15V320.266c0-22.735 18.5-41.23 41.235-41.23 22.734 0 41.226 18.495 41.226 41.23V497c0 8.285 6.719 15 15 15h96.403c8.285 0 15-6.715 15-15V302.066c0-79.14-64.383-143.523-143.524-143.523zM466.434 482h-66.399V320.266c0-39.278-31.953-71.23-71.226-71.23-39.282 0-71.239 31.952-71.239 71.23V482h-66.402V190.664h66.402v11.082c0 5.77 3.309 11.027 8.512 13.524a15.01 15.01 0 0 0 15.875-1.82c20.313-16.294 44.852-24.907 70.953-24.907 62.598 0 113.524 50.926 113.524 113.523zm0 0"
+                    data-original="#000000" />
+                </svg>
+              </a>
+            </li>
+            <li class="bg-gray-800 hover:bg-gray-900 h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+              <a href="javascript:void(0)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill='#fff'
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M12 9.3a2.7 2.7 0 1 0 0 5.4 2.7 2.7 0 0 0 0-5.4Zm0-1.8a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Zm5.85-.225a1.125 1.125 0 1 1-2.25 0 1.125 1.125 0 0 1 2.25 0ZM12 4.8c-2.227 0-2.59.006-3.626.052-.706.034-1.18.128-1.618.299a2.59 2.59 0 0 0-.972.633 2.601 2.601 0 0 0-.634.972c-.17.44-.265.913-.298 1.618C4.805 9.367 4.8 9.714 4.8 12c0 2.227.006 2.59.052 3.626.034.705.128 1.18.298 1.617.153.392.333.674.632.972.303.303.585.484.972.633.445.172.918.267 1.62.3.993.047 1.34.052 3.626.052 2.227 0 2.59-.006 3.626-.052.704-.034 1.178-.128 1.617-.298.39-.152.674-.333.972-.632.304-.303.485-.585.634-.972.171-.444.266-.918.299-1.62.047-.993.052-1.34.052-3.626 0-2.227-.006-2.59-.052-3.626-.034-.704-.128-1.18-.299-1.618a2.619 2.619 0 0 0-.633-.972 2.595 2.595 0 0 0-.972-.634c-.44-.17-.914-.265-1.618-.298-.993-.047-1.34-.052-3.626-.052ZM12 3c2.445 0 2.75.009 3.71.054.958.045 1.61.195 2.185.419A4.388 4.388 0 0 1 19.49 4.51c.457.45.812.994 1.038 1.595.222.573.373 1.227.418 2.185.042.96.054 1.265.054 3.71 0 2.445-.009 2.75-.054 3.71-.045.958-.196 1.61-.419 2.185a4.395 4.395 0 0 1-1.037 1.595 4.44 4.44 0 0 1-1.595 1.038c-.573.222-1.227.373-2.185.418-.96.042-1.265.054-3.71.054-2.445 0-2.75-.009-3.71-.054-.958-.045-1.61-.196-2.185-.419A4.402 4.402 0 0 1 4.51 19.49a4.414 4.414 0 0 1-1.037-1.595c-.224-.573-.374-1.227-.419-2.185C3.012 14.75 3 14.445 3 12c0-2.445.009-2.75.054-3.71s.195-1.61.419-2.185A4.392 4.392 0 0 1 4.51 4.51c.45-.458.994-.812 1.595-1.037.574-.224 1.226-.374 2.185-.419C9.25 3.012 9.555 3 12 3Z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="p-4 lg:col-span-2">
+          <form>
+            <div class="grid sm:grid-cols-2 gap-8">
+              <div class="relative flex items-center">
+                <input type="text" placeholder="First Name"
+                  class="px-2 py-3 bg-white w-full text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 outline-none" />
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#bbb" stroke="#bbb" class="w-[18px] h-[18px] absolute right-2"
+                  viewBox="0 0 24 24">
+                  <circle cx="10" cy="7" r="6" data-original="#000000"></circle>
+                  <path
+                    d="M14 15H6a5 5 0 0 0-5 5 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 5 5 0 0 0-5-5zm8-4h-2.59l.3-.29a1 1 0 0 0-1.42-1.42l-2 2a1 1 0 0 0 0 1.42l2 2a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42l-.3-.29H22a1 1 0 0 0 0-2z"
+                    data-original="#000000"></path>
+                </svg>
+              </div>
+
+              <div class="relative flex items-center">
+                <input type="text" placeholder="Last Name"
+                  class="px-2 py-3 bg-white w-full text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 outline-none" />
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#bbb" stroke="#bbb" class="w-[18px] h-[18px] absolute right-2"
+                  viewBox="0 0 24 24">
+                  <circle cx="10" cy="7" r="6" data-original="#000000"></circle>
+                  <path
+                    d="M14 15H6a5 5 0 0 0-5 5 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 5 5 0 0 0-5-5zm8-4h-2.59l.3-.29a1 1 0 0 0-1.42-1.42l-2 2a1 1 0 0 0 0 1.42l2 2a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42l-.3-.29H22a1 1 0 0 0 0-2z"
+                    data-original="#000000"></path>
+                </svg>
+              </div>
+
+              <div class="relative flex items-center">
+                <input type="number" placeholder="Phone No."
+                  class="px-2 py-3 bg-white text-black w-full text-sm border-b border-gray-300 focus:border-blue-500 outline-none" />
+                <svg fill="#bbb" class="w-[18px] h-[18px] absolute right-2" viewBox="0 0 64 64">
+                  <path
+                    d="m52.148 42.678-6.479-4.527a5 5 0 0 0-6.963 1.238l-1.504 2.156c-2.52-1.69-5.333-4.05-8.014-6.732-2.68-2.68-5.04-5.493-6.73-8.013l2.154-1.504a4.96 4.96 0 0 0 2.064-3.225 4.98 4.98 0 0 0-.826-3.739l-4.525-6.478C20.378 10.5 18.85 9.69 17.24 9.69a4.69 4.69 0 0 0-1.628.291 8.97 8.97 0 0 0-1.685.828l-.895.63a6.782 6.782 0 0 0-.63.563c-1.092 1.09-1.866 2.472-2.303 4.104-1.865 6.99 2.754 17.561 11.495 26.301 7.34 7.34 16.157 11.9 23.011 11.9 1.175 0 2.281-.136 3.29-.406 1.633-.436 3.014-1.21 4.105-2.302.199-.199.388-.407.591-.67l.63-.899a9.007 9.007 0 0 0 .798-1.64c.763-2.06-.007-4.41-1.871-5.713z"
+                    data-original="#000000"></path>
+                </svg>
+              </div>
+
+              <div class="relative flex items-center">
+                <input type="email" placeholder="Email"
+                  class="px-2 py-3 bg-white text-black w-full text-sm border-b border-gray-300 focus:border-blue-500 outline-none" />
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#bbb" stroke="#bbb" class="w-[18px] h-[18px] absolute right-2"
+                  viewBox="0 0 682.667 682.667">
+                  <defs>
+                    <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                      <path d="M0 512h512V0H0Z" data-original="#000000"></path>
+                    </clipPath>
+                  </defs>
+                  <g clip-path="url(#a)" transform="matrix(1.33 0 0 -1.33 0 682.667)">
+                    <path fill="none" stroke-miterlimit="10" stroke-width="40"
+                      d="M452 444H60c-22.091 0-40-17.909-40-40v-39.446l212.127-157.782c14.17-10.54 33.576-10.54 47.746 0L492 364.554V404c0 22.091-17.909 40-40 40Z"
+                      data-original="#000000"></path>
+                    <path
+                      d="M472 274.9V107.999c0-11.027-8.972-20-20-20H60c-11.028 0-20 8.973-20 20V274.9L0 304.652V107.999c0-33.084 26.916-60 60-60h392c33.084 0 60 26.916 60 60v196.653Z"
+                      data-original="#000000"></path>
+                  </g>
+                </svg>
+              </div>
+
+              <div class="relative flex items-center sm:col-span-2">
+                <textarea placeholder="Write Message"
+                  class="px-2 pt-3 bg-white text-black w-full text-sm  border-b border-gray-300 focus:border-blue-500 outline-none"></textarea>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#bbb" stroke="#bbb" class="w-[18px] h-[18px] absolute right-2"
+                  viewBox="0 0 682.667 682.667">
+                  <defs>
+                    <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                      <path d="M0 512h512V0H0Z" data-original="#000000"></path>
+                    </clipPath>
+                  </defs>
+                  <g clip-path="url(#a)" transform="matrix(1.33 0 0 -1.33 0 682.667)">
+                    <path fill="none" stroke-miterlimit="10" stroke-width="40"
+                      d="M452 444H60c-22.091 0-40-17.909-40-40v-39.446l212.127-157.782c14.17-10.54 33.576-10.54 47.746 0L492 364.554V404c0 22.091-17.909 40-40 40Z"
+                      data-original="#000000"></path>
+                    <path
+                      d="M472 274.9V107.999c0-11.027-8.972-20-20-20H60c-11.028 0-20 8.973-20 20V274.9L0 304.652V107.999c0-33.084 26.916-60 60-60h392c33.084 0 60 26.916 60 60v196.653Z"
+                      data-original="#000000"></path>
+                  </g>
+                </svg>
+              </div>
+
+              <div class="col-span-full">
+                <h6 class="text-sm text-gray-800">Select Subject</h6>
+                <div class="flex max-lg:flex-col gap-6 mt-4">
+                  <div class="flex items-center">
+                    <input id="radio1" type="radio" name="value1" class="hidden peer" checked />
+                    <label for="radio1"
+                      class="relative p-0.5 flex items-center justify-center shrink-0 peer-checked:before:hidden before:block before:absolute before:w-full before:h-full before:bg-white w-5 h-5 cursor-pointer border-2 border-[#011c2b] rounded-full overflow-hidden">
+                      <span class="border-[4px] border-[#011c2b] rounded-full w-full h-full"></span>
+                    </label>
+                    <p class="text-sm text-gray-500 ml-4">General Inquiry</p>
+                  </div>
+
+                  <div class="flex items-center">
+                    <input id="radio2" type="radio" name="value1" class="hidden peer" />
+                    <label for="radio2"
+                      class="relative p-0.5 flex items-center justify-center shrink-0 peer-checked:before:hidden before:block before:absolute before:w-full before:h-full before:bg-white w-5 h-5 cursor-pointer border-2 border-[#011c2b] rounded-full overflow-hidden">
+                      <span class="border-[4px] border-[#011c2b] rounded-full w-full h-full"></span>
+                    </label>
+                    <p class="text-sm text-gray-500 ml-4">Technical Support</p>
+                  </div>
+
+                  <div class="flex items-center">
+                    <input id="radio3" type="radio" name="value1" class="hidden peer" />
+                    <label for="radio3"
+                      class="relative p-0.5 flex items-center justify-center shrink-0 peer-checked:before:hidden before:block before:absolute before:w-full before:h-full before:bg-white w-5 h-5 cursor-pointer border-2 border-[#011c2b] rounded-full overflow-hidden">
+                      <span class="border-[4px] border-[#011c2b] rounded-full w-full h-full"></span>
+                    </label>
+                    <p class="text-sm text-gray-500 ml-4">Website Feedback</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button type="button"
+              class="mt-12 flex items-center justify-center text-sm lg:ml-auto max-lg:w-full rounded-lg px-4 py-3 tracking-wide text-white bg-blue-600 hover:bg-blue-700">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#fff' class="mr-2" viewBox="0 0 548.244 548.244">
+                <path fill-rule="evenodd" d="M392.19 156.054 211.268 281.667 22.032 218.58C8.823 214.168-.076 201.775 0 187.852c.077-13.923 9.078-26.24 22.338-30.498L506.15 1.549c11.5-3.697 24.123-.663 32.666 7.88 8.542 8.543 11.577 21.165 7.879 32.666L390.89 525.906c-4.258 13.26-16.575 22.261-30.498 22.338-13.923.076-26.316-8.823-30.728-22.032l-63.393-190.153z" clip-rule="evenodd" data-original="#000000" />
+              </svg>
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- contact section ends -->
+
+    <!-- footer section begins -->
+     <div class=" h-14 bg-indigo-500 mt-14  flex justify-end items-center  "> 
+      <div class="me-10 flex items-center justify-end">
+        
+<form class="flex items-center max-w-sm mx-auto me-7">   
+    <label for="simple-search" class="sr-only">Search</label>
+    <div class="relative w-full">
+        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+            <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5v10M3 5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 10a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm12 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0V6a3 3 0 0 0-3-3H9m1.5-2-2 2 2 2"/>
+            </svg>
+        </div>
+        <input type="text" id="simple-search" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search branch name..." required />
+    </div>
+    <button type="submit" class="p-2.5 ms-2 text-sm font-medium text-white bg-blue-700 rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+        </svg>
+        <span class="sr-only">Search</span>
+    </button>
+</form>
+
+          <svg class="h-7 px-3" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" fill="none"><path stroke="#000000" stroke-width="12" d="M96 162c-14.152 0-24.336-.007-32.276-.777-7.849-.761-12.87-2.223-16.877-4.741a36 36 0 0 1-11.33-11.329c-2.517-4.007-3.98-9.028-4.74-16.877C30.007 120.336 30 110.152 30 96c0-14.152.007-24.336.777-32.276.76-7.849 2.223-12.87 4.74-16.877a36 36 0 0 1 11.33-11.33c4.007-2.517 9.028-3.98 16.877-4.74C71.663 30.007 81.847 30 96 30c14.152 0 24.336.007 32.276.777 7.849.76 12.87 2.223 16.877 4.74a36 36 0 0 1 11.329 11.33c2.518 4.007 3.98 9.028 4.741 16.877.77 7.94.777 18.124.777 32.276 0 14.152-.007 24.336-.777 32.276-.761 7.849-2.223 12.87-4.741 16.877a36 36 0 0 1-11.329 11.329c-4.007 2.518-9.028 3.98-16.877 4.741-7.94.77-18.124.777-32.276.777Z"/><circle cx="96" cy="96" r="30" stroke="#000000" stroke-width="12"/><circle cx="135" cy="57" r="9" fill="#000000"/></svg>
+      <svg class="h-7 px-3"  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.72 3.99997H5.37C5.19793 3.99191 5.02595 4.01786 4.86392 4.07635C4.70189 4.13484 4.55299 4.22471 4.42573 4.34081C4.29848 4.45692 4.19537 4.59699 4.12232 4.75299C4.04927 4.909 4.0077 5.07788 4 5.24997V18.63C4.01008 18.9901 4.15766 19.3328 4.41243 19.5875C4.6672 19.8423 5.00984 19.9899 5.37 20H18.72C19.0701 19.9844 19.4002 19.8322 19.6395 19.5761C19.8788 19.32 20.0082 18.9804 20 18.63V5.24997C20.0029 5.08247 19.9715 4.91616 19.9078 4.76122C19.8441 4.60629 19.7494 4.466 19.6295 4.34895C19.5097 4.23191 19.3672 4.14059 19.2108 4.08058C19.0544 4.02057 18.8874 3.99314 18.72 3.99997ZM9 17.34H6.67V10.21H9V17.34ZM7.89 9.12997C7.72741 9.13564 7.5654 9.10762 7.41416 9.04768C7.26291 8.98774 7.12569 8.89717 7.01113 8.78166C6.89656 8.66615 6.80711 8.5282 6.74841 8.37647C6.6897 8.22474 6.66301 8.06251 6.67 7.89997C6.66281 7.73567 6.69004 7.57169 6.74995 7.41854C6.80986 7.26538 6.90112 7.12644 7.01787 7.01063C7.13463 6.89481 7.2743 6.80468 7.42793 6.74602C7.58157 6.68735 7.74577 6.66145 7.91 6.66997C8.07259 6.66431 8.2346 6.69232 8.38584 6.75226C8.53709 6.8122 8.67431 6.90277 8.78887 7.01828C8.90344 7.13379 8.99289 7.27174 9.05159 7.42347C9.1103 7.5752 9.13699 7.73743 9.13 7.89997C9.13719 8.06427 9.10996 8.22825 9.05005 8.3814C8.99014 8.53456 8.89888 8.6735 8.78213 8.78931C8.66537 8.90513 8.5257 8.99526 8.37207 9.05392C8.21843 9.11259 8.05423 9.13849 7.89 9.12997ZM17.34 17.34H15V13.44C15 12.51 14.67 11.87 13.84 11.87C13.5822 11.8722 13.3313 11.9541 13.1219 12.1045C12.9124 12.2549 12.7546 12.4664 12.67 12.71C12.605 12.8926 12.5778 13.0865 12.59 13.28V17.34H10.29V10.21H12.59V11.21C12.7945 10.8343 13.0988 10.5225 13.4694 10.3089C13.84 10.0954 14.2624 9.98848 14.69 9.99997C16.2 9.99997 17.34 11 17.34 13.13V17.34Z" fill="#000000"/>
+</svg>
+<svg fill="#000000" class="h-7 px-3"  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="-143 145 512 512" xml:space="preserve">
+<path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M215.2,361.2
+	c0.1,2.2,0.1,4.5,0.1,6.8c0,69.5-52.9,149.7-149.7,149.7c-29.7,0-57.4-8.7-80.6-23.6c4.1,0.5,8.3,0.7,12.6,0.7
+	c24.6,0,47.3-8.4,65.3-22.5c-23-0.4-42.5-15.6-49.1-36.5c3.2,0.6,6.5,0.9,9.9,0.9c4.8,0,9.5-0.6,13.9-1.9
+	C13.5,430-4.6,408.7-4.6,383.2v-0.6c7.1,3.9,15.2,6.3,23.8,6.6c-14.1-9.4-23.4-25.6-23.4-43.8c0-9.6,2.6-18.7,7.1-26.5
+	c26,31.9,64.7,52.8,108.4,55c-0.9-3.8-1.4-7.8-1.4-12c0-29,23.6-52.6,52.6-52.6c15.1,0,28.8,6.4,38.4,16.6
+	c12-2.4,23.2-6.7,33.4-12.8c-3.9,12.3-12.3,22.6-23.1,29.1c10.6-1.3,20.8-4.1,30.2-8.3C234.4,344.5,225.5,353.7,215.2,361.2z"/>
+</svg>
+<svg fill="#000000" class="h-7 px-3"  viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M11.42 9.49c-.19-.09-1.1-.54-1.27-.61s-.29-.09-.42.1-.48.6-.59.73-.21.14-.4 0a5.13 5.13 0 0 1-1.49-.92 5.25 5.25 0 0 1-1-1.29c-.11-.18 0-.28.08-.38s.18-.21.28-.32a1.39 1.39 0 0 0 .18-.31.38.38 0 0 0 0-.33c0-.09-.42-1-.58-1.37s-.3-.32-.41-.32h-.4a.72.72 0 0 0-.5.23 2.1 2.1 0 0 0-.65 1.55A3.59 3.59 0 0 0 5 8.2 8.32 8.32 0 0 0 8.19 11c.44.19.78.3 1.05.39a2.53 2.53 0 0 0 1.17.07 1.93 1.93 0 0 0 1.26-.88 1.67 1.67 0 0 0 .11-.88c-.05-.07-.17-.12-.36-.21z"/><path d="M13.29 2.68A7.36 7.36 0 0 0 8 .5a7.44 7.44 0 0 0-6.41 11.15l-1 3.85 3.94-1a7.4 7.4 0 0 0 3.55.9H8a7.44 7.44 0 0 0 5.29-12.72zM8 14.12a6.12 6.12 0 0 1-3.15-.87l-.22-.13-2.34.61.62-2.28-.14-.23a6.18 6.18 0 0 1 9.6-7.65 6.12 6.12 0 0 1 1.81 4.37A6.19 6.19 0 0 1 8 14.12z"/></svg>
+ 
+      </div>
+    </div>   
+    
+    
+      <div class="container mx-auto w-3/4 mt-6">
+      <div class=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-x-9">
+        <div ><img src="./images/logo.png" alt="" class="w-full "></div>
+        <div >
+          <h1 class="text-2xl font-semibold text-blue-700 text-center">Resources</h1>
+          <ul class="text-center"><li>Doucmentation</li><li>Tutorial</li><li>support</li></ul>
+        </div>
+        <div ><ul class="text-center"><li class="text-2xl font-semibold text-blue-700 text-center">Support</li><li>help center</li><li>privacy policy</li><li>conditions</li></ul></div>
+        <div ><ul class="text-center"><li class="text-2xl font-semibold text-blue-700 text-center">Contact</li><li>The Next Gen,near iplanet </li><li>Thirumangalam,Madurai</li><li>625706</li></ul></div>
+      </div>
+    <hr class="my-4 border-t-2 border-gray-500">
+    <div class="my-5 text-center">© Copyright 2020. All Rights Reserved.</div>
+
+    </div>
+  
+    <!-- footer section ends  -->
+
+  </body>
+</html>

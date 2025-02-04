@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .click {
+    @apply px-8 py-3 font-bold text-white  rounded-full 
+    bg-gradient-to-r from-blue-300 to-cyan-400 hover:from-cyan-400
+     hover:to-blue-300  transform hover:scale-105 transition-transform
+      duration-300 focus:outline-none;
+  }
+}
+@layer components {
+  .course_box {
+    @apply w-1/3 text-center flex flex-col items-center justify-center bg-blue-100 p-10 border border-x-8 border-blue-900 gap-5;
+  }
+}
